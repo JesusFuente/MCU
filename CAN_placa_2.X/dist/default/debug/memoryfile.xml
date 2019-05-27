@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/debug/CAN_placa_2.X.debug.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>30720</length>
+      <used>248</used>
+      <free>30472</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>261888</length>
+      <used>7380</used>
+      <free>254508</free>
+    </memory>
+  </executable>
+</project>

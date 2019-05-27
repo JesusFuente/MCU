@@ -1,0 +1,155 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: MPLAB X
+## FORMAT:  v2.00.01
+## DEVICE:  DSPIC30F6010
+
+## PINREGACTIONS
+cyc
+No Repeat
+FLTA
+--
+&
+## ADVPINREGACTIONS
+RE8
+--
+1
+COND2
+Cont
+1
+cyc
+1
+--
+&
+--
+COND2
+Pin
+RE9
+=
+1
+0
+cyc
+
+--
+COND3
+SFR
+ACCAH
+=
+0x0
+0
+cyc
+
+--
+&
+## CLOCK
+
+AN0
+Always
+Never
+Low
+1
+1
+
+--
+&
+## STIMULUSFILE
+&
+## RESPONSEFILE
+&
+## ASYNCH
+Pin
+RE8
+Toggle
+
+
+-1
+--
+Pin
+RG9
+Pulse Low
+20 cyc
+
+-1
+--
+Pin
+RG6
+Toggle
+
+RESET
+-1
+--
+Pin
+RG7
+Toggle
+
+START
+-1
+--
+Pin
+RG8
+Toggle
+
+STOP
+-1
+--
+Pin
+RG9
+Toggle
+
+duty
+-1
+--
+Pin
+RD8
+Toggle
+
+hall
+-1
+--
+Pin
+QEA
+Toggle
+
+
+-1
+--
+Pin
+QEB
+Toggle
+
+
+-1
+--
+Pin
+INDX
+Toggle
+
+
+-1
+--
+Pin
+RD9
+Toggle
+
+
+-1
+--
+Pin
+RB3
+Toggle
+
+
+-1
+--
+Pin
+RB4
+Toggle
+
+
+-1
+--
+&
+## ADVANCEDSCL
+
+1
+&
